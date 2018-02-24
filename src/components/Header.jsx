@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Link from 'gatsby-link';
 
 const NavBarStyle = styled.nav`
   font-family: Georgia,Cambria,"Times New Roman",Times,serif;
@@ -89,7 +90,7 @@ const Header = () => (
     <NavBarStyle>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <Link to="/blog">Blog</Link>
         </li>
         <li>
           <a href="https://github.com/nihalsh/" target="_blank">GitHub</a>
