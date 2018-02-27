@@ -1,6 +1,8 @@
 import React from "react";
 import Template from "../components/Template";
 
+require('../styles/prism-solarizedlight.css');
+
 export default function BlogTemplate({
   data, // this prop will be injected by the GraphQL query below.
 }) {
