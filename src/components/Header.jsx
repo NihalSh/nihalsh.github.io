@@ -82,21 +82,30 @@ const Title = styled.header`
   text-align: center;
   transition: text-shadow 0.2s linear;
 `;
+
+const Banner = () => (
+  <Title>
+    <h1>Nihal Shriwastawa</h1>
+  </Title>
+);
+
+const Navigation = () => (
+  <NavBarStyle>
+    <ul>
+      <li>
+        <Link to="/blog">Blog</Link>
+      </li>
+      <li>
+        <a href="https://github.com/nihalsh/" target="_blank">GitHub</a>
+      </li>
+    </ul>
+  </NavBarStyle>
+)
+
 const Header = () => (
   <div>
-    <Title>
-      <h1>Nihal Shriwastawa</h1>
-    </Title>
-    <NavBarStyle>
-      <ul>
-        <li>
-          <Link to="/blog">Blog</Link>
-        </li>
-        <li>
-          <a href="https://github.com/nihalsh/" target="_blank">GitHub</a>
-        </li>
-      </ul>
-    </NavBarStyle>
+    <Banner />
+    <Navigation />
   </div>
 );
 
