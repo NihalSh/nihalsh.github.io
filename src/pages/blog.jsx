@@ -1,6 +1,6 @@
-import React from "react";
-import PostLink from "../components/post-link";
-import Template from "../components/Template";
+import React from 'react';
+import PostLink from '../components/post-link';
+import Template from '../components/Template';
 
 const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   const Posts = edges

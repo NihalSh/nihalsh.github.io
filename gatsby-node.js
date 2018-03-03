@@ -1,4 +1,4 @@
-const path = require("path");
+const path = require('path');
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage, createRedirect } = boundActionCreators;
@@ -10,7 +10,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     toPath: '/blog',
   });
 
-  const blogPostTemplate = path.resolve(`src/templates/blogTemplate.js`);
+  const blogPostTemplate = path.resolve('src/templates/blogTemplate.jsx');
 
   return graphql(`
     {
@@ -27,7 +27,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
       return Promise.reject(result.errors);
     }

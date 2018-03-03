@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "gatsby-link";
-import styled from "styled-components";
+import React from 'react';
+import Link from 'gatsby-link';
+import styled from 'styled-components';
 
 const StyledLink = styled(Link)`
   text-decoration: none;
@@ -22,7 +22,7 @@ const StyledLink = styled(Link)`
     outline: none;
     transform: scale(1.01, 1.01);
   }
-`; 
+`;
 
 const PostLink = ({ post }) => (
   <div>
@@ -30,7 +30,7 @@ const PostLink = ({ post }) => (
       <div>
         <h2>{post.frontmatter.title}</h2>
         <p>{post.excerpt}</p>
-       {post.frontmatter.date} 
+        {post.frontmatter.date}
       </div>
     </StyledLink>
   </div>

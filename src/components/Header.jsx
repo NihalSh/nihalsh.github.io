@@ -96,11 +96,11 @@ const Navigation = () => (
         <Link to="/blog">Blog</Link>
       </li>
       <li>
-        <a href="https://github.com/nihalsh/" target="_blank">GitHub</a>
+        <a href="https://github.com/nihalsh/" rel="noopener noreferrer" target="_blank">GitHub</a>
       </li>
     </ul>
   </NavBarStyle>
-)
+);
 
 const Header = () => (
   <div>

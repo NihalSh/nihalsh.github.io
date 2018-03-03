@@ -1,5 +1,5 @@
-import React from "react";
-import Template from "../components/Template";
+import React from 'react';
+import Template from '../components/Template';
 
 require('../styles/prism-solarizedlight.css');
 

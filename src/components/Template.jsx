@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 import CenterColumn from './CenterColumn';
 import Header from './Header';
 
-const Template = (props) => (
+const Template = props => (
   <CenterColumn>
-      <Header />
-      {props.children}
+    <Header />
+    {props.children}
   </CenterColumn>
 );
 

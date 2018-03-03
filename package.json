@@ -6,6 +6,9 @@
   "repository": "https://github.com/NihalSh/nihalsh.github.io.git",
   "author": "Nihal Shriwastawa <NihalSh@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "format": "eslint -c ./.eslintrc.json --ext .jsx,.js --ignore-pattern node_modules --fix ./"
+  },
   "dependencies": {
     "gatsby": "^1.9.209",
     "gatsby-link": "^1.6.37",
@@ -19,6 +22,10 @@
     "styled-components": "^3.1.6"
   },
   "devDependencies": {
-    "prettier": "^1.10.2"
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
   }
 }
