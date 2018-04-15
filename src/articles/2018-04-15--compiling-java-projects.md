@@ -4,7 +4,7 @@ date: "2018-04-15"
 title: "Compiling Java Projects"
 ---
 
-Most of the modern project development happens in an integrated development environment (IDE). While seasoned developers do need the extra features offered by an IDE, it usually affects a beginner trying to learn the language. In this article, we will have a brief overview of the process of building a basic project using the terminal.
+Most of the modern project development happens in an integrated development environment (IDE). While seasoned developers do need the extra features offered by an IDE, it usually affects a beginner trying to learn the language. In this article, we will have a brief overview of the process of building a basic project using the terminal. Source code URL is provided in the reference section.
 
 ### Project Structure
 The project structure of our sample application is given below. This project follows the package naming conventions, which uses reversed Internet domain name followed by the project name. For more information on the naming conventions check out the link provided in the reference section.
@@ -69,4 +69,5 @@ We can still shun the use of an IDE if we desperately want to, not that we shoul
 
 ##### References:
 [Java: Naming a Package](https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html) \
-[PATH variable](https://www.java.com/en/download/help/path.xml)
+[PATH variable](https://www.java.com/en/download/help/path.xml) \
+[Example Project Source Code](https://github.com/NihalSh/nihalsh.github.io/tree/master/src/examples/2018-04-15--compiling-java-projects)
