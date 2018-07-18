@@ -8,10 +8,10 @@ Quicksort is a popular sorting algorithm developed by Tony Hoare in 1959. As you
 
 ### Haskell Code
 ```haskell{2-3}
--- QuickSort.hs
-quickSort [] = []
-quickSort (x:[]) = [x]
-quickSort xs = quickSort left ++ [pivot] ++ quickSort right
+-- Quicksort.hs
+quicksort [] = []
+quicksort (x:[]) = [x]
+quicksort xs = quicksort left ++ [pivot] ++ quicksort right
     where pivot = last xs
           left = filter (<= pivot) (init xs)
           right = filter (> pivot) (init xs)
