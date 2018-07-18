@@ -1,7 +1,7 @@
 ---
 path: "/blog/setup-ntp-client"
 date: "2018-06-24"
-title: "Setup NTP Client"
+title: "Set up NTP Client"
 ---
 
 Clock synchronization is important in any distributed system. Desynchronization can cause multiple issues which can vary in severity based on the context. NTP stands for Network Time Protocol which is a protocol for clock synchronization over the network. For the purposes of this article, I am going to configure `ntpd` on `Centos` to use `Google Public NTP`.
